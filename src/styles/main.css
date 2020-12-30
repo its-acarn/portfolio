@@ -1,12 +1,23 @@
 .main {
 	/* font-family: sans-serif;
-	text-align: right; */
+  text-align: right; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: right;
+	height: 600px;
+	width: 300vw;
 }
 
-h1 {
-	/* margin: 500px 0 50px; */
+.main-div {
+	/* display: flex;
+	justify-content: center;
+	flex-direction: column; */
 }
-
-.scroll {
-	/* padding: 0 0 200vh; */
+.main-div {
+	/* height: 600px;
+	width: 90vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; */
 }

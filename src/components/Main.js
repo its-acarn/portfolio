@@ -13,14 +13,14 @@ const Main = () => {
 
 	return (
 		<>
-			<div data-scroll-container>
-				<div data-scroll-section>
-					<h1 data-scroll-gary>Hey</h1>
-					<p data-scroll>👋</p>
+			<div className="main" data-scroll-container>
+				<div className="main-div" data-scroll-section>
+					<h1>Faster</h1>
+					<p>Slower</p>
 				</div>
-				<div data-scroll-section>
-					<h2 data-scroll-speed="1">What's up?</h2>
-					<p data-scroll-speed="2">😬</p>
+				<div className="main-div" data-scroll-section>
+					<h2>What's up?</h2>
+					<p>😬</p>
 				</div>
 			</div>
 		</>
