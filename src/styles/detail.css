@@ -1,0 +1,11 @@
+.name {
+	/* display: flex;
+	justify-content: center;
+  text-align: left; */
+	padding: 2vh 3vw;
+	margin: 0;
+	font-family: 'EB Garamond';
+	font-size: 12vh;
+	letter-spacing: 0.05em;
+	font-weight: 100;
+}
