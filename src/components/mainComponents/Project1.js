@@ -3,9 +3,12 @@ import '../../styles/projects.css';
 const Project1 = () => {
 	return (
 		<>
-			<h2 className="brng-h2">
-				BRNG <span className="brng-h2-span">Sports</span>
-			</h2>
+			<article className="brng">
+				<h2 className="brng-h2">
+					BRNG <span className="brng-h2-span">Sports</span>
+				</h2>
+				<img className="brng-img" src="./assets/brng.jpg" alt="" />
+			</article>
 		</>
 	);
 };

@@ -1,3 +1,11 @@
+.brng {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 .brng-h2 {
 	font-family: 'Fugaz One';
 	text-decoration: underline #ffff00;
@@ -8,4 +16,8 @@
 
 .brng-h2-span {
 	font-family: 'Red Hat Text';
+}
+
+.brng-img {
+	max-width: 30vw;
 }

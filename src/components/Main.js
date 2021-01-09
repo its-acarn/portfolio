@@ -26,7 +26,7 @@ const Main = () => {
 					<Skills />
 				</div>
 				<div className="m3" data-scroll-section>
-					<h1 className="projects-h1">PROJECTS</h1>
+					<h1 className="projects-h1">PROJECTS...</h1>
 				</div>
 				<div className="m4" data-scroll-section>
 					<Project1 />
