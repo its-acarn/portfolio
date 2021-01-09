@@ -3,6 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import About from './mainComponents/About';
 import Skills from './mainComponents/Skills';
+import Project1 from './mainComponents/Project1';
 import '../styles/main.css';
 
 const Main = () => {
@@ -25,11 +26,10 @@ const Main = () => {
 					<Skills />
 				</div>
 				<div className="m3" data-scroll-section>
-					<About />
+					<h1 className="projects-h1">PROJECTS</h1>
 				</div>
 				<div className="m4" data-scroll-section>
-					<h2>What's up?</h2>
-					<p>😬</p>
+					<Project1 />
 				</div>
 				<div className="FOOTER"></div>
 			</div>
