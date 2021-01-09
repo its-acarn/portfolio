@@ -55,6 +55,7 @@ ul {
 }
 .HEADER {
 	grid-area: HEADER;
+	border-bottom: solid 2px #5cdb95;
 }
 .m1 {
 	grid-area: m1;
@@ -67,17 +68,17 @@ ul {
 }
 .m2 {
 	grid-area: m2;
-	border: 1px solid white;
 }
 .m3 {
 	grid-area: m3;
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 .m4 {
 	grid-area: m4;
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 
 .FOOTER {
 	grid-area: FOOTER;
+	border-top: solid 2px #5cdb95;
 }

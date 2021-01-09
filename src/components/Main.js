@@ -17,7 +17,7 @@ const Main = () => {
 	return (
 		<>
 			<div className="main-grid" data-scroll-container>
-				<div className="HEADER">heeder</div>
+				<div className="HEADER"></div>
 				<div className="m1" data-scroll-section>
 					<Detail />
 				</div>
@@ -31,7 +31,7 @@ const Main = () => {
 					<h2>What's up?</h2>
 					<p>😬</p>
 				</div>
-				<div className="FOOTER">footer</div>
+				<div className="FOOTER"></div>
 			</div>
 		</>
 	);

@@ -1,13 +1,21 @@
+.skills-h2 {
+	text-align: center;
+	font-family: 'Spartan';
+	text-decoration-style: wavy;
+	font-weight: 600;
+	font-size: 2vw;
+}
+
 .skills-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
-	gap: 0px 0px;
+	gap: 10% 10%;
 	grid-template-areas:
-		'row1-skill1 row1-skill2 row1-dummy'
-		'row2-dummy row2-skill1 row2-skill2'
-		'row3-skill1 row3-skill2 row3-dummy'
-		'row4-dummy row4-skill1 row4-skill2';
+		'row1-skill1 row1-skill2'
+		'row2-skill1 row2-skill2'
+		'row3-skill1 row3-skill2'
+		'row4-skill1 row4-skill2';
 }
 
 .row1-skill1 {
@@ -16,6 +24,7 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	margin: auto;
 }
 
 .row1-skill2 {
@@ -24,44 +33,35 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-}
-
-.row1-dummy {
-	grid-area: row1-dummy;
-}
-
-.row2-dummy {
-	grid-area: row2-dummy;
+	margin: auto;
 }
 
 .row2-skill1 {
 	grid-area: row2-skill1;
+	margin: auto;
 }
 
 .row2-skill2 {
 	grid-area: row2-skill2;
+	margin: auto;
 }
 
 .row3-skill1 {
 	grid-area: row3-skill1;
+	margin: auto;
 }
 
 .row3-skill2 {
 	grid-area: row3-skill2;
-}
-
-.row3-dummy {
-	grid-area: row3-dummy;
-}
-
-.row4-dummy {
-	grid-area: row4-dummy;
+	margin: auto;
 }
 
 .row4-skill1 {
 	grid-area: row4-skill1;
+	margin: auto;
 }
 
 .row4-skill2 {
 	grid-area: row4-skill2;
+	margin: auto;
 }
