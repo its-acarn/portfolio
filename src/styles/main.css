@@ -22,7 +22,7 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
-	background-color: #1b1c1e;
+	background-color: #0c0032;
 	color: white;
 }
 
@@ -61,18 +61,21 @@ ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	border: 8px solid white;
+	/* border: 1px solid white; */
 	margin: 10vh;
 	padding: auto 3vw;
 }
 .m2 {
 	grid-area: m2;
+	border: 1px solid white;
 }
 .m3 {
 	grid-area: m3;
+	border: 1px solid white;
 }
 .m4 {
 	grid-area: m4;
+	border: 1px solid white;
 }
 
 .FOOTER {
