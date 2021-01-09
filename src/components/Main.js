@@ -16,7 +16,7 @@ const Main = () => {
 
 	return (
 		<>
-			<div className="grid-container" data-scroll-container>
+			<div className="main-grid" data-scroll-container>
 				<div className="HEADER">heeder</div>
 				<div className="m1" data-scroll-section>
 					<Detail />

@@ -40,7 +40,7 @@ ul {
 	box-sizing: border-box;
 }
 
-.grid-container {
+.main-grid {
 	display: grid;
 	grid-template-columns: 33vw 33vw 33vw 33vw 33vw;
 	grid-template-rows: 5vh 1fr 5vh;
