@@ -1,11 +1,9 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
+import Main2 from './components/Main2';
 
 function App() {
 	return (
 		<>
-			<Main />
+			<Main2 />
 		</>
 	);
 }
