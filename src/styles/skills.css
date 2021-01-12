@@ -1,16 +1,16 @@
 .skills-h2 {
 	text-align: center;
 	font-family: 'Spartan';
-	text-decoration-style: wavy;
 	font-weight: 600;
 	font-size: 2vw;
 	margin: 8% 0 0 0;
+	height: 5%;
 }
 
 .skills-container {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 90%;
 }
 .skills-grid {
 	margin: 5% 6%;
