@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
-import Detail from './mainComponents/Detail';
+import Detail from '../src/components/mainComponents/Detail';
 import '../styles/main.css';
 
 const Main = () => {

@@ -1,6 +1,6 @@
 import '../../styles/projects.css';
 
-const Project1 = () => {
+const Brng = () => {
 	return (
 		<>
 			<article className="brng">
@@ -14,4 +14,4 @@ const Project1 = () => {
 		</>
 	);
 };
-export default Project1;
+export default Brng;
