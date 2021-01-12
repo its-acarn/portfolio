@@ -1,4 +1,4 @@
-import '../../styles/projects.css';
+import '../../styles/brng.css';
 
 const Brng = () => {
 	return (

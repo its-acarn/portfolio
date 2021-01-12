@@ -29,7 +29,7 @@ const Main2 = () => {
 						<section className="gallery-item projects-title">
 							<h1 className="projects-h1">PROJECTS...</h1>
 						</section>
-						<section className="gallery-item brng">
+						<section className="gallery-item projects">
 							<Projects />
 						</section>
 					</div>
