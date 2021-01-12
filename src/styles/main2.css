@@ -28,9 +28,9 @@ body {
 }
 
 .skills {
-	width: 28vw;
-	max-width: 600px;
-	min-width: 250px;
+	/* width: 33vw; */
+	/* max-width: 600px; */
+	/* min-width: 250px; */
 	border-radius: 8vw;
 	background-color: #1d0f4c;
 	height: 80vh;
@@ -49,7 +49,6 @@ body {
 }
 
 .projects {
-	width: 33vw;
 }
 
 /* locomotive scroll selectors */

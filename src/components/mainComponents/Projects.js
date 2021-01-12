@@ -5,8 +5,12 @@ import '../../styles/projects.css';
 const Projects = () => {
 	return (
 		<>
-			<Brng />
-			<Shelv />
+			<div className="projects-grid">
+				<Brng />
+				<div className="projects-grid-item"></div>
+				<Shelv />
+				<div className="projects-grid-item"></div>
+			</div>
 		</>
 	);
 };

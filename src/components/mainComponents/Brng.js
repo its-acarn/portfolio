@@ -3,13 +3,9 @@ import '../../styles/brng.css';
 const Brng = () => {
 	return (
 		<>
-			<article className="brng">
-				{/* <h2 className="brng-h2">
-					BRNG <span className="brng-h2-span">Sports</span>
-				</h2> */}
-
+			<article className="projects-grid-item brng">
 				<h2>BRNG Sports</h2>
-				<img className="brng-img" src="./assets/brng.jpg" alt="" />
+				{/* <img className="brng-img" src="./assets/brng.jpg" alt="" /> */}
 			</article>
 		</>
 	);
