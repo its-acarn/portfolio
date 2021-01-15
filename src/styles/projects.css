@@ -10,8 +10,8 @@
 }
 
 .projects-grid-item {
-	border: #5cdb95 1px solid;
-	/* border-radius: 20px; */
+	/* border: #5cdb95 1px solid; */
+	border-radius: 50px;
 	width: 45vh;
 	height: 45vh;
 }

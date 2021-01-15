@@ -1,11 +1,38 @@
-.brng {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-}
-
 .brng-img {
 	width: 100%;
 }
+
+.brng {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	height: 100%;
+	background-image: url('./css-img/brng.png');
+	background-position: center;
+	background-size: cover;
+	filter: grayscale();
+	color: black;
+	font-weight: 900;
+	font-family: 'Raleway';
+	
+}
+
+.brng:hover {
+	filter: none;
+	cursor: pointer;
+	
+	/* font-style: italic; */
+	font-weight: 600;
+}
+
+.brng > h2 {
+	margin-top: 15%;
+	padding: 2%;
+	font-size: 30px;
+	background-color: #1d0f4c;
+	color: #5cdb95 ;
+	border-radius: 5px;
+}
+
+

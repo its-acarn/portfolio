@@ -8,11 +8,12 @@
 	/* justify-content: center; */
 	align-items: center;
 	height: 100%;
-	background-image: url('./css-img/square-shelv2.jpg');
+	background-image: url('./css-img/shelv2.png');
 	background-position: center;
 	background-size: cover;
 	filter: grayscale();
 	color: black;
+	font-family: 'Raleway';
 }
 
 .shelv:hover {
@@ -20,11 +21,15 @@
 	cursor: pointer;
 	/* color: #4cbb7e; */
 	/* font-family: 'Crimson Text'; */
-	font-style: italic;
+	/* font-style: italic; */
 	font-weight: 600;
 }
 
 .shelv > h2 {
-	padding-top: 8%;
+	margin-top: 15%;
+	padding: 2%;
 	font-size: 30px;
+	background-color: #1d0f4c;
+	color: #5cdb95 ;
+	border-radius: 5px;
 }
