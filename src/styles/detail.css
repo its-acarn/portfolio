@@ -16,17 +16,19 @@
 }
 
 .role1 {
-	font-family: 'NewYork';
-	font-size: 2.5vw;
+	font-family: 'Raleway';
+	font-size: 2vw;
 	text-align: right;
 	padding: 0 3vw;
 	text-decoration: overline;
 	margin-bottom: 0;
+	font-weight: 100;
 }
 .role2 {
-	font-family: 'NewYork';
-	font-size: 2.5vw;
+	font-family: 'Raleway';
+	font-size: 2vw;
 	text-align: right;
 	padding: 0 3vw;
 	margin: 0;
+	font-weight: 100;
 }
