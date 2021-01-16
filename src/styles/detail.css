@@ -25,10 +25,20 @@
 	font-weight: 100;
 }
 .role2 {
+	text-decoration: overline;
 	font-family: 'Raleway';
 	font-size: 2vw;
 	text-align: right;
 	padding: 0 3vw;
 	margin: 0;
 	font-weight: 100;
+	/* width: 20vw; */
+	word-wrap: break-word;
+}
+
+.greenText {
+	text-decoration: underline #5cdb95;
+	/* -webkit-text-decoration-style: wavy;
+	text-decoration-style: wavy;
+	text-decoration-skip: ; */
 }

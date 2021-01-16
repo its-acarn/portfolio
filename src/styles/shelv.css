@@ -1,7 +1,6 @@
 .shelv {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 	height: 100%;
 	background-image: url('./css-img/shelv3.png');
@@ -15,9 +14,6 @@
 .shelv:hover {
 	filter: none;
 	cursor: pointer;
-	/* color: #4cbb7e; */
-	/* font-family: 'Crimson Text'; */
-	/* font-style: italic; */
 	font-weight: 600;
 	transform: scale(1.02);
 }
