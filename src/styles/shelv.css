@@ -1,14 +1,10 @@
-.shelv-img {
-	width: 100%;
-}
-
 .shelv {
 	display: flex;
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
 	height: 100%;
-	background-image: url('./css-img/shelv2.png');
+	background-image: url('./css-img/shelv3.png');
 	background-position: center;
 	background-size: cover;
 	filter: grayscale();
@@ -23,6 +19,7 @@
 	/* font-family: 'Crimson Text'; */
 	/* font-style: italic; */
 	font-weight: 600;
+	transform: scale(1.02);
 }
 
 .shelv > h2 {
@@ -30,6 +27,6 @@
 	padding: 2%;
 	font-size: 30px;
 	background-color: #1d0f4c;
-	color: #5cdb95 ;
+	color: white ;
 	border-radius: 5px;
 }
