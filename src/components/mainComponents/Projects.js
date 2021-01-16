@@ -1,7 +1,8 @@
 import Brng from './Brng.js';
 import Shelv from './Shelv.js';
-import '../../styles/projects.css';
 import Geoexplorers from './Geoexplorers.js';
+import '../../styles/projects.css';
+
 
 const Projects = () => {
 	return (

@@ -1,7 +1,4 @@
 .name {
-	/* display: flex;
-	justify-content: center;
-  text-align: left; */
 	padding: 2vh 3vw;
 	margin: 0;
 	font-family: 'NewYork';
@@ -21,24 +18,26 @@
 	text-align: right;
 	padding: 0 3vw;
 	text-decoration: overline;
+	text-decoration-thickness: 10px;
 	margin-bottom: 0;
 	font-weight: 100;
 }
 .role2 {
-	text-decoration: overline;
+	/* text-decoration: overline; */
+	animation-name: fadeInUp;
 	font-family: 'Raleway';
 	font-size: 2vw;
 	text-align: right;
 	padding: 0 3vw;
 	margin: 0;
 	font-weight: 100;
-	/* width: 20vw; */
 	word-wrap: break-word;
 }
 
 .greenText {
-	text-decoration: underline #5cdb95;
-	/* -webkit-text-decoration-style: wavy;
-	text-decoration-style: wavy;
-	text-decoration-skip: ; */
+	-webkit-box-shadow:  -1vh 0 0 #5cdb95 inset;
+	-moz-box-shadow:  -1vh 0 0 #5cdb95 inset;
+	box-shadow: 0 -1vh 0 0 #5cdb95 inset;
+	font-weight: bolder;
 }
+

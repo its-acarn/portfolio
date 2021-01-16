@@ -18,6 +18,7 @@ const Main2 = () => {
 		<>
 			<header className="HEADER2"></header>
 			<main className="main-grid2" data-scroll-container>
+			<div className="stickyCircle"> <p>GET <br/> IN <br/> TOUCH</p></div>
 				<div className="content">
 					<div className="gallery">
 						<section className="gallery-item detail">
