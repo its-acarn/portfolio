@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
@@ -9,21 +9,28 @@ import '../styles/main2.css';
 const Main2 = () => {
 
 	const mainRef = useRef();
-	const getMainRect = () => console.log(mainRef.current.getBoundingClientRect());
+
+	const [mainRect, setMainRect] = useState([]);
+
+	
+	const getMainRect = () => {
+		setMainRect(mainRef.current.getBoundingClientRect());
+}
+
 	useEffect(() => {
 		const scroll = new LocomotiveScroll({
 			el: document.querySelector('[data-scroll-container]'),
 			smooth: true,
 			direction: 'horizontal'
 		});
-		getMainRect()
+		getMainRect();
 	}, []);
 
 	return (
 		<>
 			<header className="HEADER2"></header>
 			<main ref={mainRef} className="main-grid2" data-scroll-container>
-				<GetInTouch/>
+				<GetInTouch mainRect={mainRect} />
 				<div className="content">
 					<div className="gallery">
 						<section className="gallery-item detail">

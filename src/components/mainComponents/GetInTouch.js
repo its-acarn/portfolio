@@ -1,7 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
+import useWindowDimensions from '../customHooks/useWindowDimensions.js'
 import "../../styles/getInTouch.css"
 
-const GetInTouch = () => {
+const GetInTouch = ({mainRect}) => {
+
+  const {viewHeight, viewWidth} = useWindowDimensions();
+
+  let contentRight = mainRect.width;
+  console.log(contentRight)
+  console.log(viewHeight)
+  console.log(viewWidth)
+
 
 
 
@@ -9,8 +18,9 @@ const GetInTouch = () => {
   const getDOMrect = () => console.log(divRef.current.getBoundingClientRect());
   const setPos = () => {
     divRef.current.style.position = "absolute";
-    divRef.current.style.left = "1800px";
+    divRef.current.style.left = "700px";
     divRef.current.style.top = "200px"
+    divRef.current.style.backgroundColor = "#5cdb95"
     getDOMrect();
   }
   
