@@ -3,6 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
 import Projects from './mainComponents/Projects';
+import GetInTouch from './mainComponents/GetInTouch';
 import '../styles/main2.css';
 
 const Main2 = () => {
@@ -18,7 +19,7 @@ const Main2 = () => {
 		<>
 			<header className="HEADER2"></header>
 			<main className="main-grid2" data-scroll-container>
-			<div className="stickyCircle"> <p>GET <br/> IN <br/> TOUCH</p></div>
+				<GetInTouch/>
 				<div className="content">
 					<div className="gallery">
 						<section className="gallery-item detail">
