@@ -3,19 +3,9 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
 import Projects from './mainComponents/Projects';
-import GetInTouch from './mainComponents/GetInTouch';
 import '../styles/main2.css';
 
 const Main2 = () => {
-
-	const mainRef = useRef();
-
-	const [mainRect, setMainRect] = useState([]);
-
-	
-	const getMainRect = () => {
-		setMainRect(mainRef.current.getBoundingClientRect());
-}
 
 	useEffect(() => {
 		const scroll = new LocomotiveScroll({
@@ -23,23 +13,21 @@ const Main2 = () => {
 			smooth: true,
 			direction: 'horizontal'
 		});
-		getMainRect();
 	}, []);
 
 	return (
 		<>
 			<header className="HEADER2"></header>
-			<main ref={mainRef} className="main-grid2" data-scroll-container>
-				<GetInTouch mainRect={mainRect} />
+			<main className="main-grid2" data-scroll-container>
 				<div className="content">
 					<div className="gallery">
 						<section className="gallery-item detail">
 							<Detail />
 						</section>
-						<section className="gallery-item skills">
+						<section className="gallery-item skills" data-scroll data-scroll-speed="-1">
 							<Skills />
 						</section>
-						<section className="gallery-item projects-title">
+						<section className="gallery-item projects-title" data-scroll data-scroll-speed="2">
 							<h1 className="projects-h1">PROJECTS...</h1>
 						</section>
 						<section className="gallery-item projects">
