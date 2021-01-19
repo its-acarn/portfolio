@@ -1,7 +1,6 @@
 .brng {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 	height: 100%;
 	background-image: url('./css-img/brng.png');
@@ -11,14 +10,13 @@
 	color: black;
 	font-weight: 900;
 	font-family: 'Raleway';
-	
-}
+	background-color: white;
+} 
 
 .brng:hover {
 	filter: none;
 	cursor: pointer;
-	transform: scale(1.02);
-	/* font-style: italic; */
+	/* transform: scale(1.02); */
 	font-weight: 600;
 }
 
