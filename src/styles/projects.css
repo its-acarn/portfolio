@@ -16,11 +16,17 @@
 	height: 50vh;
 	/* width: 200px; 
 	height: 50px;  */
-	-webkit-transform: skew(-30deg); 
+	/* -webkit-transform: skew(-30deg); 
 	-moz-transform: skew(-30deg); 
-	transform: skew(-20deg);
+	transform: skew(-20deg); */
 	/* background: #000; */
 	margin: 20px;
+	-webkit-backface-visibility : hidden; /* the magic ingredient */
+	-webkit-transform           : skew(-16deg, 0);
+	overflow                    : hidden;
+	position                    : relative;
+	left                        : 50px;
+	border                      : 1px solid #666
 }
 
 .shape { 
@@ -31,4 +37,15 @@
 	transform: skew(30deg);
 	background: #000;
 	margin: 20px;
+}
+
+.skew {
+	-webkit-backface-visibility : hidden; /* the magic ingredient */
+	-webkit-transform           : skew(16deg, 0);
+	overflow                    : hidden;
+	width                       : 300px;
+	height                      : 260px;
+	position                    : relative;
+	left                        : 50px;
+	border                      : 1px solid #666
 }
