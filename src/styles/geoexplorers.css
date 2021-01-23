@@ -15,11 +15,11 @@
 }
 
 .geo:hover {
-	filter: none;
-	cursor: pointer;
+	/* filter: none;
+	cursor: pointer; */
 	/* transform: scale(1.02); */
 	/* font-style: italic; */
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 
 /* .geo > h2 {

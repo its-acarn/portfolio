@@ -2,9 +2,9 @@ import '../../styles/brng.css';
 
 const Brng = () => {
 	return (
-		<div className="projects-grid-item brng" >
-			<h2>BRNG Sports</h2>
-			<img src="../../../public/assets/brng.png" alt=""/>
+		<div className="projects-grid-item" >
+			{/* <h2>BRNG Sports</h2> */}
+			<img src="./assets/brng.jpg" alt=""/>
 		</div>
 	);
 };

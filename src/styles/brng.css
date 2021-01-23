@@ -1,35 +1,35 @@
 .brng {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 100%;
+	height: 100%; */
 	/* background-image: url('./css-img/brng.png'); */
 	/* background-position: center; */
 	/* background-size: cover; */
-	filter: grayscale();
+	/* filter: grayscale();
 	color: black;
 	font-weight: 900;
-	font-family: 'Raleway';
+	font-family: 'Raleway'; */
 	/* background-color: white; */
 } 
 
-.brng:hover {
+/* .brng:hover {
 	filter: none;
 	cursor: pointer;
-	/* transform: scale(1.02); */
+	transform: scale(1.02);
 	font-weight: 600;
 	background-image: url('./css-img/brng.png');
-		background-position: center;
+	background-position: center;
 	background-size: cover;
-}
+} */
 
-.brng > h2 {
+/* .brng > h2 {
 	margin-top: 15%;
 	padding: 2%;
 	font-size: 30px;
 	background-color: #1d0f4c;
 	color: #5cdb95 ;
 	border-radius: 5px;
-}
+} */
 
 
