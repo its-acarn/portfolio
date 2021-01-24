@@ -6,7 +6,9 @@
 .projects-grid-item {
 	width: 35vh;
 	height: 50vh;
-	border: solid white 1px;
+	margin: 0 5px;
+	/* border: solid #5cdb95 1px; */
+	border-radius: 5px;
 	transform: skew(-15deg);
 	filter: grayscale();
 	overflow: hidden;
@@ -14,10 +16,10 @@
 
 .projects-grid-item > img {
 	 height: 120%;
-	 object-position: 25%;
+	 object-position: 0%;
 	 position: absolute;
 	 display: block;
-	 left: -200px;
+	 left: -20%;
 	 top: 0px;
 	 transform: skew(15deg);
 }
