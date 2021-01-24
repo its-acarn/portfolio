@@ -11,9 +11,6 @@ body {
 	height: 100vh;
 }
 
-.content {
-}
-
 .gallery {
 	display: flex;
 	height: 100vh;
@@ -22,7 +19,7 @@ body {
 .gallery-item {
 	margin: auto;
 	/* border-left: solid 4px #5cdb95 ; */
-	margin-left: 3%;
+	margin-left: 3vw;
 }
 
 .detail {
@@ -36,11 +33,11 @@ body {
 	border-radius: 8vw;
 	background-color: #1d0f4c;
 	height: 80vh;
-	margin: auto 12vw;
+	margin: auto 10vw;
 }
 
 .projects-title {
-	width: 50vw;
+	width: 40vw;
 }
 .projects-h1 {
 	font-family: 'NewYork';

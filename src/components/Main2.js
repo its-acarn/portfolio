@@ -3,6 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
 import Projects from './mainComponents/Projects';
+import Scroll from './mainComponents/Scroll';
 import '../styles/main2.css';
 
 const Main2 = () => {
@@ -23,6 +24,9 @@ const Main2 = () => {
 					<div className="gallery">
 						<section className="gallery-item detail">
 							<Detail />
+						</section>
+						<section>
+							<Scroll />
 						</section>
 						<section className="gallery-item skills" data-scroll data-scroll-speed="-1">
 							<Skills />
