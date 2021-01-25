@@ -1,4 +1,4 @@
-import '../../styles/brng.css';
+import '../../styles/scroll.css';
 
 const Scroll = () => {
 	return (
