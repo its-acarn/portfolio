@@ -4,6 +4,7 @@ import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
 import Projects from './mainComponents/Projects';
 import Scroll from './mainComponents/Scroll';
+import About from './mainComponents/About';
 import '../styles/main2.css';
 
 const Main2 = () => {
@@ -27,6 +28,9 @@ const Main2 = () => {
 						</section>
 						<section className="gallery-item scroll">
 							<Scroll />
+						</section>
+						<section className="gallery-item skills" data-scroll data-scroll-speed="3">
+							<About />
 						</section>
 						<section className="gallery-item skills" data-scroll data-scroll-speed="3">
 							<Skills />

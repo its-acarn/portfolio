@@ -17,8 +17,20 @@
   border-bottom: 2px solid #5cdb95;
   animation: arrow-wave 01.5s infinite;
   animation-direction: alternate;
-  animation-delay: 2s;
+  
   opacity: 0;
+}
+
+.delay1 {
+  animation-delay: 0.1s;
+}
+
+.delay2 {
+  animation-delay: 0.2s;
+}
+
+.delay3 {
+  animation-delay: 0.3s;
 }
 
 @keyframes arrow-wave {
