@@ -19,11 +19,17 @@ body {
 .gallery-item {
 	margin: auto;
 	/* border-left: solid 4px #5cdb95 ; */
-	margin-left: 3vw;
+	/* margin-left: 3vw; */
 }
 
 .detail {
-	width: 66vw;
+	width: 75vw;
+	margin-left: 3vw;
+}
+
+.scroll {
+	width: 15vw;
+	margin-left: 7vw;
 }
 
 .skills {
@@ -33,7 +39,7 @@ body {
 	border-radius: 8vw;
 	background-color: #1d0f4c;
 	height: 80vh;
-	margin: auto 10vw;
+	/* margin: auto 10vw auto 5vw; */
 }
 
 .projects-title {

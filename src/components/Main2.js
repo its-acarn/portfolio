@@ -25,10 +25,10 @@ const Main2 = () => {
 						<section className="gallery-item detail">
 							<Detail />
 						</section>
-						<section>
+						<section className="gallery-item scroll">
 							<Scroll />
 						</section>
-						<section className="gallery-item skills" data-scroll data-scroll-speed="-1">
+						<section className="gallery-item skills" data-scroll data-scroll-speed="3">
 							<Skills />
 						</section>
 						<section className="gallery-item projects-title" data-scroll data-scroll-speed="2">
