@@ -30,7 +30,13 @@ body {
 	margin-left: 4vw;
 }
 
+.about {
+	width:fit-content;
+	height: 80vh;
+}
+
 .skills {
+	width: fit-content;
 	border-radius: 8vw;
 	background-color: #1d0f4c;
 	height: 80vh;
@@ -39,6 +45,7 @@ body {
 .projects-title {
 	width: 40vw;
 }
+
 .projects-h1 {
 	font-family: 'NewYork';
 	font-size: 5vw;

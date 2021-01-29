@@ -29,7 +29,7 @@ const Main2 = () => {
 						<section className="gallery-item scroll">
 							<Scroll />
 						</section>
-						<section className="gallery-item skills" data-scroll data-scroll-speed="3">
+						<section className="gallery-item about" data-scroll data-scroll-speed="3">
 							<About />
 						</section>
 						<section className="gallery-item skills" data-scroll data-scroll-speed="3">
