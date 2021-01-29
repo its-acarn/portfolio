@@ -43,6 +43,10 @@
 	fill:#fff;
 }
 
+.coffee-text {
+  margin-top: 1vh;
+}
+
 .coffee {
   font-family: 'Raleway';
 	font-size: 2.3vh;
