@@ -27,13 +27,13 @@ body {
 
 .scroll {
 	width: 15vw;
-	margin-left: 4vw;
+	margin-left: 12vw;
 }
 
 .about {
 	width: fit-content;
 	max-width: 40vw;
-	height: fit-content;
+	height: 72vh;
 	max-height: 90vh;
 	border-radius: 8vw;
 	border: solid 4px #1d0f4c;
@@ -41,14 +41,17 @@ body {
 
 .skills {
 	width: fit-content;
-	
+	min-width: 25vw;
+	max-width: 40vw;
+	height: 72vh;
+	max-height: 90vh;
 	border-radius: 8vw;
 	background-color: #1d0f4c;
-	height: fit-content;
 }
 
 .projects-title {
 	width: 40vw;
+	margin-right: 10vw;
 }
 
 .projects-h1 {

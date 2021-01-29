@@ -6,14 +6,12 @@ import '../../styles/projects.css';
 
 const Projects = () => {
 	return (
-		<>
 			<div className="projects-grid">
 				<Brng />
 				<Geoexplorers />
 				<Shelv />
 				<div className="projects-grid-item"></div>
 			</div>
-		</>
 	);
 };
 export default Projects;

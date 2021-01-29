@@ -4,12 +4,13 @@
 }
 
 .about-header {
-  font-size: 3.5vh;
+  font-size: 2vw;
   font-weight: 500;
+  margin: 1vw;
 }
 .about-text {
   font-family: 'Raleway';
-	font-size: 2.8vh;
+	font-size: 1.6vw;
   font-weight: 100;
   text-align: left;
   margin: 0 2.5vw;
@@ -22,7 +23,7 @@
 
 .about-getintouch {
   font-family: 'Raleway';
-	font-size: 2.8vh;
+	font-size: 1.6vw;
   font-weight: 500;
   margin: 0 4vw;
 }
@@ -33,8 +34,8 @@
 } 
 
 .about-social {
-  height: 4vh;
-	width: 4vh;
+  height: 2.3vw;
+	width: 2.3vw;
 	margin: 0 0.8vw;
 	fill: #5cdb95;
 }
@@ -44,12 +45,12 @@
 }
 
 .coffee-text {
-  margin-top: 1vh;
+  margin-top: 0.5vw;
 }
 
 .coffee {
   font-family: 'Raleway';
-	font-size: 2.3vh;
+	font-size: 1.3vw;
   font-weight: 100;
   text-align: center;
 }

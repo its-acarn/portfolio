@@ -2,9 +2,8 @@ import '../../styles/skills.css';
 
 const Skills = () => {
 	return (
-		<>
+		<article className="skills-article">
 			<h2 className="skills-h2">Skills</h2>
-			<div className="skills-container">
 				<div className="skills-grid">
 					<div className="row1-skill1">
 						<img src="./assets/js.jpg" alt="javascript-logo" />
@@ -32,8 +31,7 @@ const Skills = () => {
 						<img src="./assets/java.webp" alt="java-logo" />
 					</div>
 				</div>
-			</div>
-		</>
+		</article>
 	);
 };
 export default Skills;

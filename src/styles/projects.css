@@ -1,12 +1,12 @@
 .projects-grid {
 	display: flex;
-	margin: auto 10vw auto 0;
+	margin: auto 20vw auto 0;
 }
 
 .projects-grid-item {
 	width: 35vh;
 	height: 50vh;
-	margin: 0 5px;
+	margin: 0 0.5vw;
 	/* border: solid #5cdb95 1px; */
 	border-radius: 5px;
 	transform: skew(-15deg);
