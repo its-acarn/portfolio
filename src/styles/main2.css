@@ -31,8 +31,10 @@ body {
 }
 
 .about {
-	width:fit-content;
+	width: 40vw;
 	height: 80vh;
+	border-radius: 8vw;
+	border: solid 4px #1d0f4c;
 }
 
 .skills {
