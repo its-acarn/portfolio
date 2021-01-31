@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 import { useMediaQuery } from 'react-responsive'
 import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
@@ -10,25 +10,62 @@ import '../styles/main2.css';
 
 const Main2 = () => {
 
-	const [scrollDirection, setScrollDirection] = useState('horizontal')
+	const [scrollDirection, setScrollDirection] = useState('');
+	const [screenChange, setScreenchange] = useState(false);
+
+	const [size, setSize] = useState([0, 0]);
 
 	const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
-	useEffect(() => {
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+		updateSize();
+		
 		const scroll = new LocomotiveScroll({
 			el: document.querySelector('[data-scroll-container]'),
 			smooth: true,
 			direction: scrollDirection
 		});
-	}, []);
+	
+		if(isTabletOrMobile) {
+			setScrollDirection('vertical')
+		} else {setScrollDirection('horizontal')}
+		console.log(scrollDirection)
+
+		// return () => window.removeEventListener('resize', updateSize);
+		
+		
+
+  }, [size]);
+	
+	
+	
+
+
+
+	
+
+	// useEffect(() => {
+	// 	const scroll = new LocomotiveScroll({
+	// 		el: document.querySelector('[data-scroll-container]'),
+	// 		smooth: true,
+	// 		direction: scrollDirection
+	// 	});
+
+	// 	if(isTabletOrMobile) {
+	// 		setScrollDirection('vertical')
+	// 	}
+	// }, [size]),
 
 	return (
 		<>
 			{ isDesktopOrLaptop &&
 			<>
-				<header className="HEADER2"></header>
 				<main className="main-grid2" data-scroll-container>
 					<div className="content">
 						<div className="gallery">
@@ -53,10 +90,11 @@ const Main2 = () => {
 						</div>
 					</div>
 				</main>
-			<footer className="FOOTER2"></footer>
 			</>
 		}
-		{isTabletOrMobile && <div data-scroll-container>MOBILE</div>}
+		{isTabletOrMobile && <div data-scroll-container>
+			<Detail />
+			</div>}
 		</>
 	);
 };
