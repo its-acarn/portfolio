@@ -56,7 +56,7 @@ const Main2 = () => {
 			<footer className="FOOTER2"></footer>
 			</>
 		}
-		{isTabletOrMobile && <div>MOBILE</div>}
+		{isTabletOrMobile && <div data-scroll-container>MOBILE</div>}
 		</>
 	);
 };
