@@ -50,11 +50,21 @@
 }
 
 @media (max-width: 1145px) {
-	.name {font-size: 7rem}
-	.nameSub {font-size: 2.3rem}
+	.name {font-size: 8.5rem}
+	.nameSub {font-size: 2.6rem}
 }
 
 @media (max-width: 800px) {
-	.name {font-size: 7rem}
-	.nameSub {font-size: 2.3rem}
+	.name {font-size: 6.5rem}
+	.nameSub {font-size: 2.2rem}
+}
+
+@media (max-width: 610px) {
+	.name {font-size: 5rem}
+	.nameSub {font-size: 1.9rem}
+}
+
+@media (max-width: 420px) {
+	.name {font-size: 3.8rem}
+	.nameSub {font-size: 1.4rem}
 }

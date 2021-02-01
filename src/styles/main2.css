@@ -9,6 +9,7 @@ body {
 	color: white;
 	max-height: 100vh;
 	height: 100vh;
+	min-width: 320px;
 }
 
 .gallery {
@@ -28,10 +29,6 @@ body {
 .scroll {
 	width: 15vw;
 	margin-left: 12vw;
-}
-
-@media (max-width: 1200px) {
-	.scroll {margin-left: 5vw}
 }
 
 .about {
@@ -66,8 +63,6 @@ body {
 	text-decoration: underline #5cdb95;
 }
 
-.projects {
-}
 
 /* locomotive scroll selectors */
 html.has-scroll-smooth {
@@ -151,3 +146,21 @@ html.has-scroll-dragging {
 	right: auto;
 	bottom: 0;
 }
+
+
+@media (max-width: 1200px) {
+	.scroll {margin-left: 5vw;}
+}
+
+@media (max-width: 1024px) {
+	.gallery {flex-direction: column; height: fit-content; width: 100vw;}
+	.detail {margin: 25vh auto 0 auto; height: 50vh;}
+	.scroll {margin: 5vh auto; height: 15vh;}
+	.scroll-arrows {display: block;	}
+	.scroll-arrow {transform: rotate(45deg); margin: auto;}
+}
+
+@media (max-width: 570px) {
+	/* .detail {width: 100vw} */
+}
+
