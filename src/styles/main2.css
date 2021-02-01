@@ -160,7 +160,4 @@ html.has-scroll-dragging {
 	.scroll-arrow {transform: rotate(45deg); margin: auto;}
 }
 
-@media (max-width: 570px) {
-	/* .detail {width: 100vw} */
-}
 
