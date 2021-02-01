@@ -30,6 +30,10 @@ body {
 	margin-left: 12vw;
 }
 
+@media (max-width: 1200px) {
+	.scroll {margin-left: 5vw}
+}
+
 .about {
 	width: fit-content;
 	max-width: 40vw;

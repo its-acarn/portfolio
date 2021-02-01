@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react';
-import { useMediaQuery } from 'react-responsive'
+import React, { useEffect } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
@@ -10,64 +9,18 @@ import '../styles/main2.css';
 
 const Main2 = () => {
 
-	const [scrollDirection, setScrollDirection] = useState('horizontal');
-	const [screenChange, setScreenchange] = useState(false);
-
-	const [size, setSize] = useState([0, 0]);
-
-	const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-
-  useLayoutEffect(() => {
-    function updateSize() {
-      setSize([window.innerWidth, window.innerHeight]);
-    }
-    window.addEventListener('resize', updateSize);
-		updateSize();
-		
+	useEffect(() => {
 		const scroll = new LocomotiveScroll({
 			el: document.querySelector('[data-scroll-container]'),
 			smooth: true,
-			direction: scrollDirection
+			direction: 'horizontal'
 		});
-	
-		if(isTabletOrMobile) {
-			setScrollDirection('vertical')
-		} else {setScrollDirection('horizontal')}
-		console.log(scrollDirection)
 
-		// return () => window.removeEventListener('resize', updateSize);
-		
-		
-
-  }, []);
-	
-	
-	
-
-
-
-	
-
-	// useEffect(() => {
-	// 	const scroll = new LocomotiveScroll({
-	// 		el: document.querySelector('[data-scroll-container]'),
-	// 		smooth: true,
-	// 		direction: scrollDirection
-	// 	});
-
-	// 	if(isTabletOrMobile) {
-	// 		setScrollDirection('vertical')
-	// 	}
-	// }, [size]),
+	}, [])
 
 	return (
-		<>
-			{ isDesktopOrLaptop &&
 			<>
-				<main className="main-grid2" data-scroll-container>
-					<div className="content">
+					<main className="content" data-scroll-container>
 						<div className="gallery">
 							<section className="gallery-item detail">
 								<Detail />
@@ -88,14 +41,8 @@ const Main2 = () => {
 								<Projects />
 							</section>
 						</div>
-					</div>
-				</main>
+					</main>
 			</>
-		}
-		{isTabletOrMobile && <div data-scroll-container>
-			<Detail />
-			</div>}
-		</>
 	);
 };
 
