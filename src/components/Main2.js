@@ -10,7 +10,7 @@ import '../styles/main2.css';
 
 const Main2 = () => {
 
-	const [scrollDirection, setScrollDirection] = useState('');
+	const [scrollDirection, setScrollDirection] = useState('horizontal');
 	const [screenChange, setScreenchange] = useState(false);
 
 	const [size, setSize] = useState([0, 0]);
@@ -41,7 +41,7 @@ const Main2 = () => {
 		
 		
 
-  }, [size]);
+  }, []);
 	
 	
 	
