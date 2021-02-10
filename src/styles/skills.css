@@ -6,7 +6,7 @@
 
 .skills-h2 {
 	font-weight: 500;
-	font-size: 2vw;
+	font-size: 2.9rem;
 	margin: 1vw;
 }
 
@@ -28,6 +28,5 @@
 }
 
 .skills-grid > div > img {
-	width: 6.5vw;
-	max-height: 10vw;
+	width: 9.5rem;
 }
