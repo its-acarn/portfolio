@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import Detail from './mainComponents/Detail';
 import Skills from './mainComponents/Skills';
@@ -9,14 +9,44 @@ import '../styles/main2.css';
 
 const Main2 = () => {
 
+	const [width, setWidth] = useState(window.innerWidth);
+	const breakpoint = 1024;
+
+	const changeScroll = (scroll) => {
+		(width > breakpoint) ? scroll.direction = 'horizontal' : scroll.direction = 'vertical';
+		(width > breakpoint) ? scroll.options.direction = 'horizontal' : scroll.options.direction = 'vertical';
+
+	};
+  
 	useEffect(() => {
 		const scroll = new LocomotiveScroll({
 			el: document.querySelector('[data-scroll-container]'),
 			smooth: true,
-			direction: 'horizontal'
+			direction: 'horizontal',
+			scrollFromAnywhere: true,
+			reloadOnContextChange: true,
+			// repeat:true,
+			// tablet: {
+			// 	smooth: true,
+			// },
+			// smartphone: {
+			// 	smooth: true,
+			// }
 		});
 
-	}, [])
+		function handleResize() {
+      setWidth(window.innerWidth);
+			changeScroll(scroll);
+			console.log(scroll)
+
+		}
+    window.addEventListener('resize', handleResize)
+
+    return _ => {
+      window.removeEventListener('resize', handleResize)
+		}
+
+	})
 
 	return (
 			<>
