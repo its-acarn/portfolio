@@ -15,7 +15,6 @@ const Main2 = () => {
 	const changeScroll = (scroll) => {
 		(width > breakpoint) ? scroll.direction = 'horizontal' : scroll.direction = 'vertical';
 		(width > breakpoint) ? scroll.options.direction = 'horizontal' : scroll.options.direction = 'vertical';
-
 	};
   
 	useEffect(() => {
@@ -25,13 +24,6 @@ const Main2 = () => {
 			direction: 'horizontal',
 			scrollFromAnywhere: true,
 			reloadOnContextChange: true,
-			// repeat:true,
-			// tablet: {
-			// 	smooth: true,
-			// },
-			// smartphone: {
-			// 	smooth: true,
-			// }
 		});
 
 		function handleResize() {
