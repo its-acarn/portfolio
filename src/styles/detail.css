@@ -68,3 +68,8 @@
 	.name {font-size: 3.8rem}
 	.nameSub {font-size: 1.4rem}
 }
+
+@media (max-width: 380px) {
+	.name {font-size: 3.0rem}
+	.nameSub {font-size: 1.4rem}
+}

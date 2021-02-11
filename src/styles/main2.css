@@ -28,7 +28,6 @@ body {
 
 .scroll {
 	width: 15vw;
-	margin-left: 12vw;
 }
 
 .about {
@@ -147,24 +146,30 @@ html.has-scroll-dragging {
 }
 
 @media (max-width: 1024px) {
+	.content {overflow: hidden;}
 	.gallery {flex-direction: column; height: fit-content; width: 100vw;}
 	.detail {margin: 25vh auto 0 auto; height: 50vh;}
 	.scroll {margin: 5vh auto; height: 15vh;}
-	.scroll-arrows {display: block;	}
+	.scroll-arrows {display: block;}
 	.scroll-arrow {transform: rotate(45deg); margin: auto;}
-	.content {overflow: hidden;}
+	.about {margin-bottom: 10vh;}
+	.skills {margin-bottom: 10vh;}
+
 }
 
 @media (max-width: 590px) {
 	.about {width: 45rem; height: 58rem}
+	.skills {height: 50rem}
 }
 
 @media (max-width: 460px) {
 	.about {width: 40rem; height: 52rem}
+	.skills {height: 50rem}
 }
 
 @media (max-width: 400px) {
 	.about {width: 31rem; height: 62rem}
+	.skills {width: 31rem; height: 50rem}
 }
 
 
