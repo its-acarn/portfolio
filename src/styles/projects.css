@@ -1,11 +1,11 @@
 .projects-grid {
 	display: flex;
-	margin: auto 20vw auto 0;
+	margin: auto 15vw auto 0;
 }
 
 .projects-grid-item {
-	width: 35vh;
-	height: 50vh;
+	width: 40vh;
+	height: 60vh;
 	margin: 0 0.5vw;
 	/* border: solid #5cdb95 1px; */
 	border-radius: 5px;
@@ -38,4 +38,10 @@
 
 .projects-grid-item > img:hover {
 	transform: skew(15deg) scale(1.1);
+}
+
+@media (max-width: 1024px) {
+	.projects-grid {flex-direction: column;}
+	.projects-grid-item {width: 100vw; transform: none;}
+	.projects-grid-item > img {transform: none; position:relative}
 }
