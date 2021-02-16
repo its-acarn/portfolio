@@ -12,6 +12,10 @@
 	transform: skew(-15deg);
 	filter: grayscale();
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .projects-grid-item > img {
@@ -22,13 +26,13 @@
 	 left: -20%;
 	 top: 0px;
 	 transform: skew(15deg);
+	 z-index: -1;
 }
 
 .projects-grid-item > h2 {
 	transform: skew(15deg);
-	position: absolute;
-	 display: block;
-	 margin: auto;
+	margin-top: 15%;
+	font-size: 2.9rem;
 }
 
 .projects-grid-item:hover {
@@ -38,6 +42,27 @@
 
 .projects-grid-item > img:hover {
 	transform: skew(15deg) scale(1.1);
+}
+
+.pgi-div {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 20%;
+border-radius: 10px;
+background-color: #0c0032;
+opacity: 75%;
+}
+
+.project-links {
+	height: 8vh;
+	width: 8vh;
+	margin: 10% 1.5vw;
+	fill: #5cdb95;
+	transform: skew(15deg);
+}
+
+.project-links:hover{
+	fill: #fff;
 }
 
 @media (max-width: 1024px) {

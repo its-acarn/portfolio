@@ -10,7 +10,6 @@ const Projects = () => {
 				<Brng />
 				<Geoexplorers />
 				<Shelv />
-				<div className="projects-grid-item"></div>
 			</div>
 	);
 };
