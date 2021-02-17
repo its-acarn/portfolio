@@ -2,25 +2,26 @@
 	margin: auto;
 	text-align: center;
 	white-space: normal;
+	max-height: 60rem;
 }
 
 .skills-h2 {
 	font-weight: 500;
 	font-size: 2.9rem;
-	margin: 1vw;
+	margin: 3.3rem 1.6rem 1.6rem 1.6rem;
 }
 
 .skills-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 2.5vw;
+	gap: 3rem;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-template-areas:
 		'row1-skill1 row1-skill2'
 		'row2-skill1 row2-skill2'
 		'row3-skill1 row3-skill2'
 		'row4-skill1 row4-skill2';
-	padding: 2vw;
+	padding: 2rem;
 }
 
 .skills-grid > div {
