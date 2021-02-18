@@ -172,7 +172,7 @@ html.has-scroll-dragging {
 	}
 	.about {
 		margin-bottom: 10vh;
-		height: 56rem;
+		height: 58rem;
 	}
 	.skills {
 		margin-bottom: 5vh;
@@ -191,7 +191,7 @@ html.has-scroll-dragging {
 @media (max-width: 590px) {
 	.about {
 		width: 45rem;
-		height: 58rem;
+		height: 60rem;
 	}
 	.skills {
 		height: 50rem;
@@ -204,7 +204,7 @@ html.has-scroll-dragging {
 @media (max-width: 460px) {
 	.about {
 		width: 40rem;
-		height: 52rem;
+		height: 58rem;
 	}
 	.skills {
 		height: 50rem;
@@ -214,7 +214,7 @@ html.has-scroll-dragging {
 @media (max-width: 400px) {
 	.about {
 		width: 31rem;
-		height: 62rem;
+		height: 65rem;
 	}
 	.skills {
 		width: 31rem;

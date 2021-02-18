@@ -55,8 +55,27 @@
 	text-align: center;
 }
 
+@media (max-width: 700px) {
+	.about-text {
+		font-size: 2.1rem;
+		margin: 2rem;
+	}
+	.about-getintouch {
+		font-size: 2.1rem;
+		margin: 0 4rem;
+	}
+	.coffee {
+		font-size: 1.5rem;
+	}
+}
+
 @media (max-width: 500px) {
 	.about-text {
 		font-size: 1.9rem;
+		margin: 2rem;
+	}
+	.about-getintouch {
+		font-size: 1.9rem;
+		margin: 0 4rem;
 	}
 }

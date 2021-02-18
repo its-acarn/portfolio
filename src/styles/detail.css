@@ -111,3 +111,12 @@
 		font-size: 1.9rem;
 	}
 }
+
+@media (max-width: 350px) {
+	.name {
+		font-size: 3.1rem;
+	}
+	.nameSub {
+		font-size: 1.7rem;
+	}
+}
