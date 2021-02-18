@@ -18,15 +18,12 @@
 }
 
 .nameSub {
-	/* text-decoration: overline; */
-	animation-name: fadeInUp;
 	font-family: 'Raleway';
 	font-size: 2.9rem;
 	text-align: right;
 	padding: 0 3vw;
 	margin: 0;
 	font-weight: 100;
-	word-wrap: break-word;
 }
 
 .greenText {

@@ -36,6 +36,7 @@
 	display: block;
 	left: -20%;
 	transform: skew(15deg);
+	z-index: -1;
 }
 
 .projects-grid-item > h2 {
