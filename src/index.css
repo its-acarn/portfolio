@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'New-York';
 	src: url('/src/fonts/NewYork.otf');
+	src: url('/src/fonts/NewYork.ttf');
+	src: url('/src/fonts/NewYork.woff');
 }
 
 body {
