@@ -8,6 +8,7 @@
 @font-face {
 	font-family: 'Rale-way';
 	src: url('/src/fonts/Raleway-Regular.ttf');
+	src: url('/src/fonts/Raleway-Regular.woff');
 }
 
 body {
