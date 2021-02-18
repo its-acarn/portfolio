@@ -96,7 +96,7 @@
 
 @media (max-width: 420px) {
 	.name {
-		font-size: 3.8rem;
+		font-size: 4rem;
 	}
 	.nameSub {
 		font-size: 1.9rem;
@@ -105,7 +105,7 @@
 
 @media (max-width: 380px) {
 	.name {
-		font-size: 3rem;
+		font-size: 3.5rem;
 	}
 	.nameSub {
 		font-size: 1.9rem;
