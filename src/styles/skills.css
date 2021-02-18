@@ -31,3 +31,15 @@
 .skills-grid > div > img {
 	width: 9.5rem;
 }
+
+@media (max-width: 1024px) {
+	.skills-grid > div > img {
+		width: 7.5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.skills-grid > div > img {
+		width: 7rem;
+	}
+}
