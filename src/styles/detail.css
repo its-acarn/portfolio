@@ -1,3 +1,8 @@
+.name-wrapper {
+	width: 100rem;
+	margin-left: 4vw;
+}
+
 .name {
 	padding: 2vh 3vw;
 	margin: 0;
@@ -25,8 +30,8 @@
 }
 
 .greenText {
-	-webkit-box-shadow:  -1vh 0 0 #5cdb95 inset;
-	-moz-box-shadow:  -1vh 0 0 #5cdb95 inset;
+	-webkit-box-shadow: -1vh 0 0 #5cdb95 inset;
+	-moz-box-shadow: -1vh 0 0 #5cdb95 inset;
 	box-shadow: 0 -1vh 0 0 #5cdb95 inset;
 	font-weight: bolder;
 }
@@ -46,30 +51,56 @@
 }
 
 .social-img:hover {
-	fill:#fff;
+	fill: #fff;
+}
+
+@media (min-width: 1500px) {
+	.name-wrapper {
+		margin-left: 10vw;
+	}
 }
 
 @media (max-width: 1145px) {
-	.name {font-size: 8.5rem}
-	.nameSub {font-size: 2.6rem}
+	.name {
+		font-size: 8.5rem;
+	}
+	.nameSub {
+		font-size: 2.6rem;
+	}
 }
 
 @media (max-width: 800px) {
-	.name {font-size: 6.5rem}
-	.nameSub {font-size: 2.2rem}
+	.name {
+		font-size: 6.5rem;
+	}
+	.nameSub {
+		font-size: 2.2rem;
+	}
 }
 
 @media (max-width: 610px) {
-	.name {font-size: 5rem}
-	.nameSub {font-size: 1.9rem}
+	.name {
+		font-size: 5rem;
+	}
+	.nameSub {
+		font-size: 1.9rem;
+	}
 }
 
 @media (max-width: 420px) {
-	.name {font-size: 3.8rem}
-	.nameSub {font-size: 1.4rem}
+	.name {
+		font-size: 3.8rem;
+	}
+	.nameSub {
+		font-size: 1.4rem;
+	}
 }
 
 @media (max-width: 380px) {
-	.name {font-size: 3.0rem}
-	.nameSub {font-size: 1.4rem}
+	.name {
+		font-size: 3rem;
+	}
+	.nameSub {
+		font-size: 1.4rem;
+	}
 }

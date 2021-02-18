@@ -1,18 +1,19 @@
 .projects-grid {
 	display: flex;
-	margin: auto 15vw auto 0;
+	margin: auto 10vw auto 0;
 }
 
 .projects-grid-item-wrapper {
 	overflow: hidden;
 	transform: skew(-15deg);
 	border-radius: 5px;
+	margin: 0 0.3rem;
 }
 
 .projects-grid-item {
-	width: 40vh;
-	height: 60vh;
-	margin: 0 0.5vw;
+	width: 30rem;
+	height: 45rem;
+	margin: 0;
 	border-radius: 5px;
 	filter: grayscale();
 	overflow: hidden;
@@ -28,14 +29,13 @@
 
 .projects-grid-item > img {
 	height: 120%;
+	margin: 0;
+	padding: 0;
 	object-position: 0%;
 	position: absolute;
 	display: block;
 	left: -20%;
-	top: 0px;
 	transform: skew(15deg);
-	z-index: -1;
-	overflow: hidden;
 }
 
 .projects-grid-item > h2 {
@@ -63,9 +63,9 @@
 }
 
 .project-links {
-	height: 8vh;
-	width: 8vh;
-	margin: 10% 1.5vw;
+	height: 6rem;
+	width: 6rem;
+	margin: 1rem 1.3rem;
 	fill: #5cdb95;
 	transform: skew(15deg);
 }

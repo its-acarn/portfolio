@@ -1,75 +1,76 @@
-/* .scroll-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-
 .scroll-arrows {
-  display: flex;
+	display: flex;
 }
 
 .scroll-arrow {
-  width: 12px;
-  height: 12px;
-  transform: rotate(315deg);
-  border-right: 2px solid #5cdb95;
-  border-bottom: 2px solid #5cdb95;
-  animation: arrow-wave 01.5s infinite;
-  animation-direction: alternate;
-  opacity: 0;
+	width: 12px;
+	height: 12px;
+	transform: rotate(315deg);
+	border-right: 2px solid #5cdb95;
+	border-bottom: 2px solid #5cdb95;
+	animation: arrow-wave 01.5s infinite;
+	animation-direction: alternate;
+	opacity: 0;
 }
 
 .delay1 {
-  animation-delay: 0.1s;
+	animation-delay: 0.1s;
 }
 
 .delay2 {
-  animation-delay: 0.2s;
+	animation-delay: 0.2s;
 }
 
 .delay3 {
-  animation-delay: 0.3s;
+	animation-delay: 0.3s;
 }
 
 @keyframes arrow-wave {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: .25;
-  }
-  50% {
-    opacity: .5;
-  }
-  75% {
-    opacity: .75;
-  }
-  100% {
-    opacity: 1;
-  }
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.25;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	75% {
+		opacity: 0.75;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .mousey {
-  width: 3px;
-  padding: 10px 15px;
-  height: 35px;
-  border: 2px solid #5cdb95;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
+	width: 3px;
+	padding: 10px 15px;
+	height: 35px;
+	border: 2px solid #5cdb95;
+	border-radius: 25px;
+	opacity: 0.75;
+	box-sizing: content-box;
 }
 .scroller {
-  width: 3px;
-  height: 10px;
-  border-radius: 25%;
-  background-color: #fff;
-  animation: scroll 2s infinite;
-  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-  animation-delay: 2s;
+	width: 3px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: #fff;
+	animation: scroll 2s infinite;
+	animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+	animation-delay: 2s;
 }
 @keyframes scroll {
-  0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(15px); opacity: 0;}
+	0% {
+		opacity: 0;
+	}
+	10% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(15px);
+		opacity: 0;
+	}
 }

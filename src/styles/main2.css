@@ -57,7 +57,6 @@ body {
 	text-decoration: underline #5cdb95;
 }
 
-
 /* locomotive scroll selectors */
 html.has-scroll-smooth {
 	overflow: hidden;
@@ -142,37 +141,87 @@ html.has-scroll-dragging {
 }
 
 @media (max-width: 1200px) {
-	.scroll {margin-left: 5vw;}
+	.scroll {
+		margin-left: 5vw;
+	}
 }
 
 @media (max-width: 1024px) {
-	.content {overflow: hidden;}
-	.gallery {flex-direction: column; height: fit-content; width: 100vw;}
-	.detail {margin: 25vh auto 0 auto; height: 50vh;}
-	.scroll {margin: 5vh auto; height: 15vh;}
-	.scroll-arrows {display: block;}
-	.scroll-arrow {transform: rotate(45deg); margin: auto;}
-	.about {margin-bottom: 10vh; height: 56rem}
-	.skills {margin-bottom: 5vh; height: 54rem}
-	.projects-title {width: 100vw; margin-right: 0vw;}
-	.projects-h1 {font-size: 7.2rem; text-align: center;}
+	.content {
+		overflow: hidden;
+	}
+	.gallery {
+		flex-direction: column;
+		height: fit-content;
+		width: 100vw;
+	}
+	.detail {
+		margin: 25vh auto 0 auto;
+		height: 50vh;
+	}
+	.scroll {
+		margin: 5vh auto;
+		height: 15vh;
+	}
+	.scroll-arrows {
+		display: block;
+	}
+	.scroll-arrow {
+		transform: rotate(45deg);
+		margin: auto;
+	}
+	.about {
+		margin-bottom: 10vh;
+		height: 56rem;
+	}
+	.skills {
+		margin-bottom: 5vh;
+		height: 54rem;
+	}
+	.projects-title {
+		width: 100vw;
+		margin-right: 0vw;
+	}
+	.projects-h1 {
+		font-size: 7.2rem;
+		text-align: center;
+	}
 }
 
 @media (max-width: 590px) {
-	.about {width: 45rem; height: 58rem}
-	.skills {height: 50rem}
-	.projects-h1 {font-size: 5rem;}
+	.about {
+		width: 45rem;
+		height: 58rem;
+	}
+	.skills {
+		height: 50rem;
+	}
+	.projects-h1 {
+		font-size: 5rem;
+	}
 }
 
 @media (max-width: 460px) {
-	.about {width: 40rem; height: 52rem}
-	.skills {height: 50rem}
+	.about {
+		width: 40rem;
+		height: 52rem;
+	}
+	.skills {
+		height: 50rem;
+	}
 }
 
 @media (max-width: 400px) {
-	.about {width: 31rem; height: 62rem}
-	.skills {width: 31rem; height: 50rem}
-	.projects-h1 {font-size: 4rem; letter-spacing: 0.4rem;}
+	.about {
+		width: 31rem;
+		height: 62rem;
+	}
+	.skills {
+		width: 31rem;
+		height: 50rem;
+	}
+	.projects-h1 {
+		font-size: 4rem;
+		letter-spacing: 0.4rem;
+	}
 }
-
-
