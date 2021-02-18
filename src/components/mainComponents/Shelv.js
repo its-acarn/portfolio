@@ -2,7 +2,7 @@ const Shelv = () => {
 	return (
 		<article className="projects-grid-item-wrapper">
 			<div className="projects-grid-item">
-				<img src="./assets/shelv3.png" alt="" />
+				{/* <img src="./assets/shelv3.png" alt="" /> */}
 				<h2 className="greenText">Shelv</h2>
 				<div className="pgi-div">
 					<a
