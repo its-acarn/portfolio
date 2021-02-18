@@ -2,6 +2,7 @@ import '../../styles/geoexplorers.css';
 
 const Geoexplorers = () => {
 	return (
+		<article className="projects-grid-item-wrapper">
 			<div className="projects-grid-item">
 				<img src="./assets/geoexplorers.png" alt=""/>
 				<h2 className="greenText">Geoexplorers</h2>
@@ -10,6 +11,7 @@ const Geoexplorers = () => {
 					<a href="http://geoexplorers.herokuapp.com/" target="_blank" rel="noreferrer"><svg className="project-links" role="img" xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24"><title>BRNG Sports Website</title><path d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" /></svg></a>
 				</div>
 			</div>
+		</article>
 	);
 };
 export default Geoexplorers;

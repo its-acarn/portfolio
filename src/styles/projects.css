@@ -3,13 +3,19 @@
 	margin: auto 15vw auto 0;
 }
 
+.projects-grid-item-wrapper {
+	overflow: hidden;
+	transform: skew(-15deg);
+	border-radius: 5px;
+}
+
 .projects-grid-item {
 	width: 40vh;
 	height: 60vh;
 	margin: 0 0.5vw;
 	/* border: solid #5cdb95 1px; */
 	border-radius: 5px;
-	transform: skew(-15deg);
+	/* transform: skew(-15deg); */
 	filter: grayscale();
 	overflow: hidden;
 	display: flex;
@@ -27,6 +33,11 @@
 	 top: 0px;
 	 transform: skew(15deg);
 	 z-index: -1;
+	 -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+		overflow: hidden;
 }
 
 .projects-grid-item > h2 {
@@ -37,11 +48,12 @@
 
 .projects-grid-item:hover {
 	filter: none;
-	transform: skew(-15deg);
+	transform: scale(1.1);
+	
 }
 
 .projects-grid-item > img:hover {
-	transform: skew(15deg) scale(1.1);
+	transform: skew(15deg);
 }
 
 .pgi-div {
