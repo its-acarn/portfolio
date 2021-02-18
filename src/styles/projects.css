@@ -61,6 +61,7 @@
 	border-radius: 10px;
 	background-color: #0c0032;
 	opacity: 75%;
+	z-index: 1;
 }
 
 .project-links {
