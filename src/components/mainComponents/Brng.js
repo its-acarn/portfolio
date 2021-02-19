@@ -1,5 +1,3 @@
-import { useMediaQuery } from 'react-responsive';
-
 const Brng = ({ size }) => {
 	return (
 		<article className="projects-grid-item-wrapper">
