@@ -97,10 +97,27 @@
 		transform: none;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
-		/* position: relative; */
-		background: url('/src/styles/css-img/shelv2.png');
+		justify-content: space-around;
 	}
+
+	.brng {
+		background: url('/src/styles/css-img/brng.jpg');
+		background-position: bottom;
+		background-size: cover;
+	}
+
+	.geoexplorers {
+		background: url('/src/styles/css-img/geoexplorers.jpg');
+		background-position: left;
+		background-size: cover;
+	}
+
+	.shelv {
+		background: url('/src/styles/css-img/shelv.jpg');
+		background-position: left;
+		background-size: cover;
+	}
+
 	.projects-grid-item:hover {
 		transform: none;
 	}
@@ -113,8 +130,8 @@
 		transform: none;
 	}
 	.projects-grid-item > h2 {
-		/* position: absolute; */
-		left: 20%;
+		/* position: absolute;
+		left: 20%; */
 		margin: 0;
 		transform: none;
 	}

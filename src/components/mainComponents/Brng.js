@@ -1,8 +1,10 @@
-const Brng = () => {
+import { useMediaQuery } from 'react-responsive';
+
+const Brng = ({ size }) => {
 	return (
 		<article className="projects-grid-item-wrapper">
-			<div className="projects-grid-item">
-				<img src="./assets/brng-2.png" alt="" />
+			<div className="projects-grid-item brng">
+				{size() ? <img src="./assets/brng-2.jpg" alt="" /> : <></>}
 				<h2 className="greenText">BRNG Sports</h2>
 				<div className="pgi-div">
 					<a

@@ -1,8 +1,12 @@
-const Geoexplorers = () => {
+const Geoexplorers = ({ size }) => {
 	return (
 		<article className="projects-grid-item-wrapper">
-			<div className="projects-grid-item">
-				<img src="./assets/geoexplorers.png" alt="" />
+			<div className="projects-grid-item geoexplorers">
+				{size() ? (
+					<img src="./assets/geoexplorers.png" alt="" />
+				) : (
+					<></>
+				)}
 				<h2 className="greenText">Geoexplorers</h2>
 				<div className="pgi-div">
 					<a

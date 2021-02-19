@@ -1,8 +1,8 @@
-const Shelv = () => {
+const Shelv = ({ size }) => {
 	return (
 		<article className="projects-grid-item-wrapper">
-			<div className="projects-grid-item">
-				{/* <img src="./assets/shelv3.png" alt="" /> */}
+			<div className="projects-grid-item shelv">
+				{size() ? <img src="./assets/shelv.jpg" alt="" /> : <></>}
 				<h2 className="greenText">Shelv</h2>
 				<div className="pgi-div">
 					<a
