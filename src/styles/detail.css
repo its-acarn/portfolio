@@ -59,7 +59,7 @@
 
 @media (max-width: 1250px) {
 	.name-wrapper {
-		/* width: 90rem; */
+		margin: auto;
 	}
 	.name {
 		font-size: 8.5rem;
@@ -73,6 +73,12 @@
 	.name-wrapper {
 		margin: auto;
 		width: fit-content;
+	}
+	.name {
+		padding: 2vh 0;
+	}
+	.nameSub {
+		padding: 2vh 0;
 	}
 	.socials {
 		position: static;
