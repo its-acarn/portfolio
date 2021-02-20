@@ -1,5 +1,5 @@
 .name-wrapper {
-	width: 100rem;
+	/* width: 100rem; */
 	margin-left: 4vw;
 }
 
@@ -59,7 +59,7 @@
 
 @media (max-width: 1250px) {
 	.name-wrapper {
-		width: 90rem;
+		/* width: 90rem; */
 	}
 	.name {
 		font-size: 8.5rem;
@@ -71,8 +71,17 @@
 
 @media (max-width: 1024px) {
 	.name-wrapper {
-		margin: 0;
+		margin: auto;
 		width: fit-content;
+	}
+	.socials {
+		position: static;
+		display: flex;
+		margin: 3vh auto 20vh auto;
+	}
+	.social-img {
+		width: 4rem;
+		height: 4rem;
 	}
 }
 
@@ -100,6 +109,11 @@
 	}
 	.nameSub {
 		font-size: 1.9rem;
+	}
+	.social-img {
+		width: 3rem;
+		height: 3rem;
+		margin: 0.3rem;
 	}
 }
 

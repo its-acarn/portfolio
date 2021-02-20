@@ -155,8 +155,8 @@ html.has-scroll-dragging {
 		width: 100vw;
 	}
 	.detail {
-		margin: 25vh auto 0 auto;
-		height: 50vh;
+		margin: auto;
+		height: fit-content;
 	}
 	.scroll {
 		margin: 5vh auto;
