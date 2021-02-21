@@ -7,7 +7,6 @@ const Shelv = ({ size }) => {
 				<div className="pgi-div">
 					<a
 						href="https://github.com/its-acarn/shelv"
-						target="_blank"
 						rel="noreferrer"
 					>
 						<svg

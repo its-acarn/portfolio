@@ -7,7 +7,6 @@ const Brng = ({ size }) => {
 				<div className="pgi-div">
 					<a
 						href="https://github.com/its-acarn/brng_sports"
-						target="_blank"
 						rel="noreferrer"
 					>
 						<svg
@@ -22,7 +21,6 @@ const Brng = ({ size }) => {
 					</a>
 					<a
 						href="https://brng-sports.herokuapp.com/"
-						target="_blank"
 						rel="noreferrer"
 					>
 						<svg

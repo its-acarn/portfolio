@@ -11,7 +11,6 @@ const Geoexplorers = ({ size }) => {
 				<div className="pgi-div">
 					<a
 						href="https://github.com/its-acarn/geoexplorers"
-						target="_blank"
 						rel="noreferrer"
 					>
 						<svg
@@ -26,7 +25,6 @@ const Geoexplorers = ({ size }) => {
 					</a>
 					<a
 						href="http://geoexplorers.herokuapp.com/"
-						target="_blank"
 						rel="noreferrer"
 					>
 						<svg
