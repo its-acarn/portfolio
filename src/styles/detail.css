@@ -26,8 +26,8 @@
 }
 
 .greenText {
-	-webkit-box-shadow: -1vh 0 0 #5cdb95 inset;
-	-moz-box-shadow: -1vh 0 0 #5cdb95 inset;
+	-webkit-box-shadow: 0 -1vh 0 0 #5cdb95 inset;
+	-moz-box-shadow: 0 -1vh 0 0 #5cdb95 inset;
 	box-shadow: 0 -1vh 0 0 #5cdb95 inset;
 	font-family: 'Rale-way';
 	font-weight: 600;
